@@ -12421,7 +12421,7 @@ h5,
 
 .btn.btn-primary {
   background: #005AA9 !important;
-  border: 1px solid #005AA9  !important;
+  border: 1px solid #005AA9 !important;
   color: #fff !important;
   font-size: 14px;
 }
@@ -12453,7 +12453,7 @@ h5,
 .btn.btn-secondary:hover {
   border: 1px solid #005AA9;
   background: transparent;
-  color: #fff ;
+  color: #fff;
 }
 
 .btn.btn-secondary.btn-outline-secondary {
@@ -12541,25 +12541,21 @@ h5,
 
 .car-wrap .text {
   border-top: none;
-  padding: 10px 20px 20px;
+  padding: 15px 25px 25px;
 }
 
 .car-wrap .text .price {
-  color: #005AA9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: #28a745;
   margin-bottom: 0;
   font-weight: 600;
-}
-
-/* font /day card */
-.car-wrap .text .price span {
-  font-size: 12px;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.3);
+  padding-top: 2px;
 }
 
 /* font header card */
 .car-wrap .text h2 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
 }
 
@@ -12568,11 +12564,13 @@ h5,
 }
 
 .car-wrap .text span.cat {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 400;
-  font-size: 14px;
-  color: rgba(0, 0, 0, 0.2);
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5);
   display: block;
   margin-bottom: 0;
+  padding-top: 5px;
 }
 
 .car-wrap .text p.d-block {
