@@ -13070,12 +13070,12 @@ h5,
 .ftco-degree-bg:after {
   content: '';
   position: absolute;
-  top: 76%;
+  top: 72%;
   left: 0;
   bottom: -0px;
   overflow: visible;
   width: 100%;
-  height: 125px;
+  height: 164px;
   z-index: 0;
   -webkit-transform: skewY(-4deg);
   -moz-transform: skewY(-4deg);
@@ -13175,7 +13175,6 @@ textarea.form-control {
 }
 
 .ftco-section {
-  top: 50;
   padding: 6em 0;
   position: relative;
 }
@@ -13188,6 +13187,7 @@ textarea.form-control {
 
 .ftco-no-pt {
   padding-top: 0;
+  top: -200px;
 }
 
 .ftco-no-pb {
@@ -13201,7 +13201,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 16px;
   background: #000;
-  padding: 7em 0;
+  padding: 4em 0 1em 0;
 }
 
 .ftco-footer .logo {
