@@ -2916,14 +2916,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #005AA9;
+  border-color: #005AA9;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color: #005AA9;
+  border-color: #005AA9;
 }
 
 .btn-primary:focus,
@@ -2943,8 +2943,8 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled).active,
 .show>.btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #0062cc;
-  border-color: #005cbf;
+  background-color: #005AA9;
+  border-color: #005AA9;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus,
@@ -12420,40 +12420,40 @@ h5,
 }
 
 .btn.btn-primary {
-  background: #1089ff !important;
-  border: 1px solid #1089ff !important;
+  background: #005AA9 !important;
+  border: 1px solid #005AA9  !important;
   color: #fff !important;
   font-size: 14px;
 }
 
 .btn.btn-primary:hover {
-  border: 1px solid #1089ff;
+  border: 1px solid #005AA9;
   background: transparent;
-  color: #1089ff;
+  color: #005AA9;
 }
 
 .btn.btn-primary.btn-outline-primary {
-  border: 1px solid #1089ff;
+  border: 1px solid #005AA9;
   background: transparent;
-  color: #1089ff;
+  color: #005AA9;
 }
 
 .btn.btn-primary.btn-outline-primary:hover {
   border: 1px solid transparent;
-  background: #1089ff;
+  background: #005AA9;
   color: #fff;
 }
 
 .btn.btn-secondary {
-  background: #01d28e !important;
-  border: 1px solid #01d28e !important;
-  color: #fff !important;
+  background: #fff !important;
+  border: 1px solid #005AA9 !important;
+  color: #000 !important;
 }
 
 .btn.btn-secondary:hover {
-  border: 1px solid #01d28e;
+  border: 1px solid #005AA9;
   background: transparent;
-  color: #01d28e;
+  color: #fff ;
 }
 
 .btn.btn-secondary.btn-outline-secondary {
@@ -12541,11 +12541,11 @@ h5,
 
 .car-wrap .text {
   border-top: none;
-  padding: 20px 30px 30px;
+  padding: 10px 20px 20px;
 }
 
 .car-wrap .text .price {
-  color: #1089ff;
+  color: #005AA9;
   margin-bottom: 0;
   font-weight: 600;
 }
@@ -12559,7 +12559,7 @@ h5,
 
 /* font header card */
 .car-wrap .text h2 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
 }
 
