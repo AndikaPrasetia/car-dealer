@@ -70,7 +70,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #ffe;
 }
 
 [tabindex="-1"]:focus {
@@ -12281,10 +12281,10 @@ h5,
   position: relative;
 }
 
-.owl-carousel .owl-item {
-  opacity: .4;
-}
-
+/*.owl-carousel .owl-item {*/
+/*  opacity: .4;*/
+/*}*/
+/**/
 .owl-carousel .owl-item.active {
   opacity: 1;
 }
@@ -12325,6 +12325,7 @@ h5,
 }
 
 .owl-carousel .owl-dots {
+  padding-bottom: 50px;
   text-align: center;
 }
 
@@ -12409,7 +12410,7 @@ h5,
   border-radius: 3px;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .btn:hover,
@@ -12549,14 +12550,16 @@ h5,
   font-weight: 600;
 }
 
+/* font /day card */
 .car-wrap .text .price span {
   font-size: 12px;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.3);
 }
 
+/* font header card */
 .car-wrap .text h2 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
 }
 
@@ -12566,6 +12569,7 @@ h5,
 
 .car-wrap .text span.cat {
   font-weight: 400;
+  font-size: 14px;
   color: rgba(0, 0, 0, 0.2);
   display: block;
   margin-bottom: 0;
@@ -12946,6 +12950,7 @@ h5,
 
 .ftco-about {
   position: relative;
+  padding-top: -234px;
   z-index: 0;
 }
 
@@ -13187,6 +13192,7 @@ textarea.form-control {
 
 .ftco-no-pt {
   padding-top: 0;
+  padding-bottom: 0;
   top: -200px;
 }
 
