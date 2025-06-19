@@ -47,6 +47,7 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  scroll-behavior: smooth;
 }
 
 article,
@@ -11735,7 +11736,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #1089ff;
+  color: #fff;
   outline: none !important;
 }
 
@@ -12122,9 +12123,71 @@ h5,
 /*  color: #fff;*/
 /*}*/
 
+/* tombol jelajahi */
+.jelajahi {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.6em 1.2em;
+  background: #005AA9;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 3px;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-top: 20px;
+}
+
+/* panah kecil di dalam <i> */
+.jelajahi i {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: rotate(45deg);
+  margin-right: 8px;
+  transition: transform 0.2s ease;
+  margin-top: -4px;
+}
+
+/* hover effect: tombol membesar & bayangan */
+.jelajahi:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.jelajahi:hover i {
+  transform: rotate(45deg) translateY(2px);
+}
+
+/* active effect: ketekanan tombol */
+.jelajahi:active {
+  transform: scale(0.95);
+}
+
+/* animasi panah “menggeliat” */
+@keyframes arrow-bounce {
+
+  0%,
+  100% {
+    transform: translateY(0) rotate(45deg);
+  }
+
+  50% {
+    transform: translateY(4px) rotate(45deg);
+  }
+}
+
+.jelajahi:hover i {
+  animation: arrow-bounce 0.6s infinite;
+}
+
 .slider-text p {
   line-height: 1.5;
   color: white;
+  text-shadow: black;
 }
 
 .slider-text .breadcrumbs {
@@ -13191,7 +13254,7 @@ textarea.form-control {
 .ftco-no-pt {
   padding-top: 0;
   padding-bottom: 0;
-  top: -200px;
+  top: -196px;
 }
 
 .ftco-no-pb {
@@ -14326,4 +14389,75 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px;
   }
+}
+
+/* STICKY CONTAINER */
+.sticky-contact {
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 150px;
+  /* ⚙️ tetapkan lebar sama dengan ukuran expand */
+  align-items: flex-end;
+  /* ⚙️ geser semua tombol ke tepi kanan container */
+  z-index: 1000;
+}
+
+/* BASE BUTTON */
+.contact-btn {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  /* 1:1 awal */
+  border-radius: 3px;
+  overflow: hidden;
+  text-decoration: none;
+  color: #fff;
+  transition: width 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* tambah agar expand tidak mendorong sibling */
+  transform-origin: right center;
+  margin-right: -2px;
+}
+
+/* ICON INSIDE */
+.contact-btn img {
+  width: 46px;
+  height: 36px;
+  padding-left: 3px;
+  flex-shrink: 0;
+}
+
+/* TEXT HIDDEN INITIALLY */
+.contact-btn .btn-text {
+  margin-left: 10px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* WHATSAPP COLORS */
+.whatsapp-btn {
+  background-color: #25D366;
+}
+
+/* CALL COLORS */
+.call-btn {
+  background-color: #005AA9;
+}
+
+/* ON HOVER: EXPAND TO 3:1, SHOW TEXT, ADD SHADOW */
+.contact-btn:hover {
+  width: 150px;
+  /* 3 × height = 3:1 */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.contact-btn:hover .btn-text {
+  opacity: 1;
 }
