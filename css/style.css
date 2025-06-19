@@ -12051,6 +12051,11 @@ h5,
   }
 }
 
+.hero-wrap.hero-wrap-2 img {
+  object-fit: cover;
+  transform: scale(8);
+}
+
 .hero-wrap.hero-wrap-2 {
   height: 600px !important;
   position: absolute 75%;
