@@ -9304,9 +9304,11 @@ button.bg-dark:focus {
   margin-right: 1.5rem !important;
 }
 
+/* header text hero */
 .mb-4,
 .my-4 {
   margin-bottom: 1.5rem !important;
+  text-shadow: 2px 2px 69px #000;
 }
 
 .ml-4,
