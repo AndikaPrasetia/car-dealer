@@ -634,8 +634,10 @@ pre code {
   margin-left: 0;
 }
 
+/* img about */
 .no-gutters>.col,
 .no-gutters>[class*="col-"] {
+  margin-top: -90px;
   padding-right: 0;
   padding-left: 0;
 }
@@ -9308,7 +9310,6 @@ button.bg-dark:focus {
 .mb-4,
 .my-4 {
   margin-bottom: 1.5rem !important;
-  text-shadow: 2px 2px 69px #000;
 }
 
 .ml-4,
@@ -12395,8 +12396,8 @@ h5,
 }
 
 .owl-carousel .owl-dots {
-  padding-bottom: 50px;
-  text-align: center;
+  padding-top: 0px;
+text-align: center;
 }
 
 .owl-carousel .owl-dots .owl-dot {
@@ -13024,7 +13025,7 @@ h5,
 
 .ftco-about:after {
   position: absolute;
-  top: 0;
+  top: -80px;
   right: 0;
   bottom: 0;
   content: '';
@@ -13515,7 +13516,7 @@ textarea.form-control {
 .user-img {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  /*background-position: center center;*/
 }
 
 .testimony-section {
@@ -14477,4 +14478,39 @@ textarea.form-control {
 
 .contact-btn:hover .btn-text {
   opacity: 1;
+}
+
+.hero-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.title-logo img {
+  height: -2px;
+  width: auto;
+}
+
+.title-text {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1;
+  margin-left: 0.8rem;
+  color: #eee;
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    flex-direction: column;
+  }
+  .title-text {
+    margin-left: 0;
+    margin-top: 0.8rem;
+    font-size: 1.5rem;
+  }
+  .title-logo {
+    height: 1.4rem;
+    margin-bottom: 0.8rem;
+  }
 }
