@@ -10344,7 +10344,7 @@ button.bg-dark:focus {
 
   .pb-md-5,
   .py-md-5 {
-    padding-bottom: 3rem !important;
+    padding-bottom: 0rem !important;
   }
 
   .pl-md-5,
@@ -12046,11 +12046,15 @@ h5,
 
 @media (max-width: 991.98px) {
   .hero-wrap {
-    height: 1150px;
+    height: 850px;
   }
 
   .hero-wrap .overlay {
     height: 1150px;
+  }
+
+  .text-center {
+    padding-bottom: 28rem;
   }
 }
 
@@ -14500,6 +14504,37 @@ textarea.form-control {
   color: #eee;
 }
 
+@media (max-width: 992px) {
+  .hero-title {
+    flex-direction: column;
+  }
+  .title-text {
+    margin-left: 0;
+    margin-top: 0.8rem;
+    font-size: 1.5rem;
+  }
+  .title-logo {
+    height: 1.4rem;
+    margin-bottom: 0.8rem;
+  }
+  .hero-wrap {
+    height: 850px;
+  }
+
+  .hero-wrap .overlay {
+    height: 1150px;
+  }
+
+  .text-center {
+    padding-bottom: 33rem;
+  }
+
+  .slider-text h1 {
+    font-size: 34px;
+  }
+
+}
+
 @media (max-width: 768px) {
   .hero-title {
     flex-direction: column;
@@ -14513,4 +14548,20 @@ textarea.form-control {
     height: 1.4rem;
     margin-bottom: 0.8rem;
   }
+  .hero-wrap {
+    height: 750px;
+  }
+
+  .hero-wrap .overlay {
+    height: 1150px;
+  }
+
+  .text-center {
+    padding-bottom: 33rem;
+  }
+
+  .slider-text h1 {
+    font-size: 34px;
+  }
 }
+
