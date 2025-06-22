@@ -13755,7 +13755,7 @@ textarea.form-control {
 }
 
 .block-20.img {
-  height: 700px;
+  height: 1400px;
   border-radius: 5px;
 }
 
@@ -14506,11 +14506,16 @@ textarea.form-control {
 
 @media (max-width: 1630px) {
   .text-center {
-    padding-bottom: 69rem;
+    padding-bottom: 3rem;
   }
+
   .mb-md-5,
   .my-md-5 {
     margin-bottom: 3rem !important;
+  }
+
+  .text-center.sh {
+    padding-bottom: 3rem;
   }
 }
 
