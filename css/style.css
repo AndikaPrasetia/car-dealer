@@ -10200,7 +10200,7 @@ button.bg-dark:focus {
 
   .mb-md-5,
   .my-md-5 {
-    margin-bottom: 3rem !important;
+    margin-bottom: 30rem !important;
   }
 
   .ml-md-5,
@@ -14504,6 +14504,16 @@ textarea.form-control {
   color: #eee;
 }
 
+@media (max-width: 1630px) {
+  .text-center {
+    padding-bottom: 69rem;
+  }
+  .mb-md-5,
+  .my-md-5 {
+    margin-bottom: 3rem !important;
+  }
+}
+
 @media (max-width: 992px) {
   .hero-title {
     flex-direction: column;
@@ -14525,8 +14535,18 @@ textarea.form-control {
     height: 1150px;
   }
 
-  .text-center {
-    padding-bottom: 33rem;
+  /*.text-center {*/
+  /*  padding-bottom: 83rem;*/
+  /*}*/
+  /**/
+
+  .mb-md-5,
+  .my-md-5 {
+    margin-bottom: 30rem !important;
+  }
+
+  .col-md-12.text-center {
+    padding-bottom: 2rem;
   }
 
   .slider-text h1 {
@@ -14535,7 +14555,7 @@ textarea.form-control {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768.98px) {
   .hero-title {
     flex-direction: column;
   }
@@ -14560,8 +14580,31 @@ textarea.form-control {
     padding-bottom: 33rem;
   }
 
+  .col-md-12.text-center {
+    padding-bottom: 2rem;
+  }
+
   .slider-text h1 {
     font-size: 34px;
   }
+  .mb-md-5,
+  .my-md-5 {
+    margin-bottom: 2rem !important;
+  }
 }
 
+@media (max-width: 992px) {
+
+  .col-md-12.text-center {
+    padding-bottom: 2rem;
+  }
+
+}
+
+@media (max-width: 1630px) {
+
+  .col-md-12.text-center {
+    padding-bottom: 2rem;
+  }
+
+}
