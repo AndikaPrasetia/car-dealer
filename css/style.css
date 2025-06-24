@@ -14650,7 +14650,7 @@ textarea.form-control {
   border-radius: 12px;
   padding: 24px;
   text-align: center;
-  box-shadow: 0 9px 18px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.4);
   margin: 40px auto;
   margin-bottom: 15rem;
   margin-top: -4rem;
@@ -14696,7 +14696,7 @@ textarea.form-control {
 .btn1.btn-primary {
   background: #005AA9;
   color: white;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .btn1.btn-primary:hover {
@@ -14706,7 +14706,7 @@ textarea.form-control {
 .btn1.btn-outline-light {
   background-color: #ffac07;
   color: white;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .btn1.btn-outline-light:hover {
