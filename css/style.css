@@ -10198,6 +10198,7 @@ button.bg-dark:focus {
     margin-right: 3rem !important;
   }
 
+  /*comment this inside MIN-WIDTH 768,*/
   /*.mb-md-5,*/
   /*.my-md-5 {*/
   /*  margin-bottom: 3rem !important;*/
@@ -13042,10 +13043,10 @@ h5,
 @media (min-width: 768px) {
   .ftco-intro .overlay {
     position: absolute;
-    top: -120px;
+    top: -140px;
     left: -100px;
     right: 0;
-    bottom: -120px;
+    bottom: -140px;
     width: 40%;
     content: '';
     opacity: 1;
@@ -14447,11 +14448,6 @@ textarea.form-control {
     padding-bottom: 3rem;
   }
 
-  /*.mb-md-5,*/
-  /*.my-md-5 {*/
-  /*  margin-bottom: 3rem !important;*/
-  /*}*/
-  /**/
   .text-center.sh {
     padding-bottom: 3rem;
   }
