@@ -12495,10 +12495,10 @@ h5,
 }
 
 .btn.btn-primary {
-  background: #005AA9 !important;
-  border: 1px solid #005AA9 !important;
-  color: #fff !important;
+  color: white !important;
+  background: #005AA9  !important;
   font-size: 14px;
+  font-weight: 600;
 }
 
 .btn.btn-primary:hover {
@@ -12522,7 +12522,7 @@ h5,
 .btn.btn-secondary {
   background: #fff !important;
   border: 1px solid #005AA9 !important;
-  color: #000 !important;
+  color: #005AA9 !important;
 }
 
 .btn.btn-secondary:hover {
@@ -12970,7 +12970,7 @@ h5,
   right: 0;
   bottom: 0;
   content: '';
-  background: #01d28e;
+  background: #005AA9;
   z-index: -2;
   width: 63%;
 }
@@ -13049,7 +13049,7 @@ h5,
     width: 40%;
     content: '';
     opacity: 1;
-    background: #01d28e;
+    background: #005AA9;
     -ms-transform: rotate(20deg);
     /* IE 9 */
     -webkit-transform: rotate(20deg);
@@ -14408,7 +14408,7 @@ textarea.form-control {
 
 /* CALL COLORS */
 .call-btn {
-  background-color: #005AA9;
+  background-color: #006add;
 }
 
 /* ON HOVER: EXPAND TO 3:1, SHOW TEXT, ADD SHADOW */
@@ -14646,7 +14646,7 @@ textarea.form-control {
 }
 
 .action-card {
-  background: #01d28e;
+  background:#005AA9;
   border-radius: 12px;
   padding: 24px;
   text-align: center;
@@ -14689,12 +14689,12 @@ textarea.form-control {
   padding: 8px 16px;
   border-radius: 5px;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   transition: all 0.2s ease;
 }
 
 .btn1.btn-primary {
-  background: #005AA9;
+  background: #25D366;
   color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -14711,4 +14711,11 @@ textarea.form-control {
 
 .btn1.btn-outline-light:hover {
   transform: scale(1.03);
+}
+
+.btn.btn-primary.cari {
+  background: white !important;
+  color: #005AA9  !important;
+  font-size: 14px;
+  font-weight: 600;
 }
