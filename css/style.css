@@ -14442,7 +14442,32 @@ textarea.form-control {
   color: #eee;
 }
 
-@media (max-width: 1630px) {
+@media (max-width: 1699.98px) {
+  .text-center {
+    padding-bottom: 3rem;
+  }
+
+  .mb-md-5,
+  .my-md-5 {
+    margin-bottom: 3rem !important;
+  }
+
+  .text-center.sh {
+    padding-bottom: 3rem;
+  }
+
+  .col-md-12.text-center {
+    padding-bottom: 2rem;
+  }
+
+  .car-details .img {
+    width: 100%;
+    height: 550px;
+    margin-bottom: 30px;
+    background-position: center center;
+  }
+}
+@media (max-width: 1199.98px) {
   .text-center {
     padding-bottom: 3rem;
   }
@@ -14468,7 +14493,7 @@ textarea.form-control {
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991.98px) {
   .hero-title {
     flex-direction: column;
   }
