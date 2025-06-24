@@ -10198,10 +10198,10 @@ button.bg-dark:focus {
     margin-right: 3rem !important;
   }
 
-  .mb-md-5,
-  .my-md-5 {
-    margin-bottom: 30rem !important;
-  }
+  /*.mb-md-5,*/
+  /*.my-md-5 {*/
+  /*  margin-bottom: 3rem !important;*/
+  /*}*/
 
   .ml-md-5,
   .mx-md-5 {
@@ -12496,7 +12496,7 @@ h5,
 
 .btn.btn-primary {
   color: white !important;
-  background: #005AA9  !important;
+  background: #005AA9 !important;
   font-size: 14px;
   font-weight: 600;
 }
@@ -14442,41 +14442,16 @@ textarea.form-control {
   color: #eee;
 }
 
-@media (max-width: 1699.98px) {
-  .text-center {
-    padding-bottom: 3rem;
-  }
-
-  .mb-md-5,
-  .my-md-5 {
-    margin-bottom: 3rem !important;
-  }
-
-  .text-center.sh {
-    padding-bottom: 3rem;
-  }
-
-  .col-md-12.text-center {
-    padding-bottom: 2rem;
-  }
-
-  .car-details .img {
-    width: 100%;
-    height: 550px;
-    margin-bottom: 30px;
-    background-position: center center;
-  }
-}
 @media (max-width: 1199.98px) {
   .text-center {
     padding-bottom: 3rem;
   }
 
-  .mb-md-5,
-  .my-md-5 {
-    margin-bottom: 3rem !important;
-  }
-
+  /*.mb-md-5,*/
+  /*.my-md-5 {*/
+  /*  margin-bottom: 3rem !important;*/
+  /*}*/
+  /**/
   .text-center.sh {
     padding-bottom: 3rem;
   }
@@ -14523,7 +14498,7 @@ textarea.form-control {
 
   .mb-md-5,
   .my-md-5 {
-    margin-bottom: 30rem !important;
+    margin-bottom: 30rem;
   }
 
   .col-md-12.text-center {
@@ -14582,7 +14557,7 @@ textarea.form-control {
   }
 
   .text-center {
-    padding-bottom: 33rem;
+    padding-bottom: 3rem;
   }
 
   .col-md-12.text-center {
@@ -14595,7 +14570,7 @@ textarea.form-control {
 
   .mb-md-5,
   .my-md-5 {
-    margin-bottom: 2rem !important;
+    margin-bottom: 32rem;
   }
 
   .car-details .img {
@@ -14671,7 +14646,7 @@ textarea.form-control {
 }
 
 .action-card {
-  background:#005AA9;
+  background: #005AA9;
   border-radius: 12px;
   padding: 24px;
   text-align: center;
@@ -14740,7 +14715,7 @@ textarea.form-control {
 
 .btn.btn-primary.cari {
   background: white !important;
-  color: #005AA9  !important;
+  color: #005AA9 !important;
   font-size: 14px;
   font-weight: 600;
 }
